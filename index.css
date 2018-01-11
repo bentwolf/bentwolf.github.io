@@ -3,7 +3,7 @@ article {
   z-index: 1;
   font-family: "Comic Sans MS", cursive, sans-serif;
   font-size: 23px;
-  color: #f442df;
+  color:#f442df;
 }
 article::before {
     content: " ";
