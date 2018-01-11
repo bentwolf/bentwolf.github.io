@@ -1,6 +1,7 @@
 article {
-  font-size: 23px;
+  font-size: 35px;
   color:#f442df;
+  font-weight: bold;
   position: relative;
   z-index: 1;
   font-family: "Comic Sans MS", cursive, sans-serif;
