@@ -36,13 +36,12 @@ h1 {
 
 .elephant {
     position: fixed;
-    top: 70%;
+    z-index: 1;
+    top: 60%;
     left: 70%;
-    width: 20%;
-    height: 20%;
-    -webkit-animation:spin 4s linear infinite;
-    -moz-animation:spin 4s linear infinite;
-    animation:spin 4s linear infinite;
+    -webkit-animation:spin 2s linear infinite;
+    -moz-animation:spin 2s linear infinite;
+    animation:spin 2s linear infinite;
 }
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
