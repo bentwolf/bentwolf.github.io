@@ -6,6 +6,34 @@ h1 {
      color:rgba(100, 50, 255, .8); 
 }
 
+.famalamadingdong {
+  position: relative;
+  z-index: 1;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.rakshaad {
+  font-size: 35px;
+  color:#f442df;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.rakshaad::before {
+    content: " ";
+    position: absolute;
+    width: 130%;
+    height: 900px;
+    opacity: .7;
+    z-index: -1;
+    background-image: url("images/flag.jpg");
+    background-repeat: repeat;
+}
+
 .rainbow {
    /* Chrome, Safari, Opera */
   -webkit-animation: rainbow 1s infinite; 
@@ -43,25 +71,6 @@ h1 {
 	100%{color: orange;}	
 }
 
-article {
-  font-size: 35px;
-  color:#f442df;
-  font-weight: bold;
-  position: relative;
-  z-index: 1;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-}
-
-article::before {
-    content: " ";
-    position: absolute;
-    width: 130%;
-    height: 900px;
-    opacity: .7;
-    z-index: -1;
-    background-image: url("images/flag.jpg");
-    background-repeat: repeat;
-}
 .wordart {
     position: absolute;
     width: 1000px;
